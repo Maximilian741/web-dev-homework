@@ -28,6 +28,10 @@
             padding: 1em;
             text-align: center;
         }
+        img {
+            max-width: 70%;
+            height: auto;
+        }
     </style>
     <meta charset="UTF-8">
     <title>Home</title>
@@ -42,9 +46,35 @@
         <a href="contact.html">Contact</a>
     </nav>
     <main>
-        <p>Home Page</p>
+        <h1>Nmap</h1>
+        <h2>Directions and Materials</h2>
+        
+            <!--For some reason I had to indent like this to keep the first line centered-->
+            <pre>1. Nmap - a network scanning tool/application
+                2. A taget Ip or network address. Ex:192.158.1.38. Each number in the set can range from 0 to 255. 
+                3. A computer with Nmap installed.  Preferably Linux for the purpose of this instructable. 
+            </pre>
+    
+        <h2>Instructions/Steps</h2>
+        <ol>
+            <li>Open a terminal window, The image below illustrates this step.  You can also navigate use ctlr alt t:</li>
+            <img src="images/terminal.png" alt="Terminal">
+            
+            <li>For the purpose of this instuctable, I will be scanning my own network setup for testing purposes.  To find your ip address eneter the command <code>curl ifconfig.me</code></code></li>
+            <img src="images/ip.png" alt="ip">
+            <li>Once you have a target IP, run the following command: <code>nmap [target]</code>, replacing [target] with the network or IP address you want to scan.</li>
+            <li>Wait for the scan to complete and view the results.  In this instance, I did not have any open ports and the access was denied.</li>
+            <img src="images/results.png" alt="results">
+        </ol>
+
+        <h2>More Info</h2>
+        <pre>If you are interested in the above you can check out Nmap from the offical website below!</pre>
+        <!--Include an IFram of the nmap website below-->
+        <iframe src="https://nmap.org/" title="Nmap Website" width="100%" height="500px"></iframe>
+
+
     </main>
     <footer>
-        <p>Footer info lalala</p>
+        <p>Created by Max Casteel</p>
     </footer>
 </html>
