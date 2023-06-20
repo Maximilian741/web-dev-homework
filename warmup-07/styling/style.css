@@ -1,0 +1,22 @@
+.titleFont {
+    background-color: #eaeaea;
+}
+
+#authorFont {
+    font-size: 24px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+#publishing-dateFont {
+    position: relative;
+    top: 10px;
+}
+
+pre {
+    color: blue;
+}
+
