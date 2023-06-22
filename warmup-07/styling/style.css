@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Font1&family=Font2&display=swap');
+
 .titleFont {
     background-color: #eaeaea;
+    font-size: 36px;
+    font-family: 'Font2', serif;
 }
 
 #authorFont {
     font-size: 24px;
+    font-family: 'Font2', serif;
+    font-weight: 100;
 }
 
 img {
@@ -14,9 +20,14 @@ img {
 #publishing-dateFont {
     position: relative;
     top: 10px;
+    font-style: italic;
 }
 
-pre {
-    color: blue;
+
+#excerptFont {
+    font-size: 18px;
+    font-family: 'Font1', sans-serif;
+    color: rgb(58, 58, 83);
+    font-style: normal;
 }
 
