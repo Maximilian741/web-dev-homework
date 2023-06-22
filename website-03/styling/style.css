@@ -1,0 +1,62 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2;
+}
+
+#name {
+    background-color: #333;
+    padding: 10px;
+    
+    color: #fff;
+    font-size: 39px;
+    text-align: left;
+}
+
+/* Style the slideshow */
+#slideshow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#slideshow img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Style the navigation */
+nav {
+    background-color: #444;
+    position: fixed;
+    width: 100%;
+}
+
+#main-nav{
+    background-color: #444;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
