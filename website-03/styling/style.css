@@ -1,10 +1,8 @@
-/* Reset default margins and paddings */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color */
 body {
     background-color: #f2f2f2;
 }
@@ -12,7 +10,6 @@ body {
 #name {
     background-color: #333;
     padding: 10px;
-    
     color: #fff;
     font-size: 39px;
     text-align: left;
@@ -34,15 +31,17 @@ body {
 /* Style the navigation */
 nav {
     background-color: #444;
-    position: fixed;
     width: 100%;
+    z-index: 1; /* Ensure navigation is above other elements */
+    transition: background-color 0.5s ease;
 }
 
-#main-nav{
+#main-nav {
     background-color: #444;
-    position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 1; /* Ensure navigation is above other elements */
+    transition: background-color 0.5s ease;
 }
 
 ul {
@@ -59,7 +58,39 @@ li {
 a {
     text-decoration: none;
     color: #fff;
+    transition: color 0.3s ease;
 }
-.active {
+
+a:hover {
+    color: greenyellow; 
+}
+
+a.active {
     color: greenyellow;
+    transform: translateY(2px);
+}
+
+/* Additional Styles */
+#about-section {
+    margin-top: 150px; /* Adjust the margin-top value as needed */
+    padding: 20px;
+    background-color: #fff;
+}
+
+#artwork-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #334e41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#artwork-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
