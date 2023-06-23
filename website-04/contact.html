@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styling/style.css">
+</head>
+<body>
+    <h1 id="name">Contact</h1>
+    <div class="logo-container">
+        <a href="./index.html">
+            <img src="./images/logo.png" alt="Logo" class="logo">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="contact-section">
+        <h2>Send an Inquiry</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name1" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <div id="artwork-section">
+        <img src="./images/artwork1.jpg" alt="Artwork 1">
+        <img src="./images/artwork2.jpg" alt="Artwork 2">
+    </div>
+</body>
+</html>
