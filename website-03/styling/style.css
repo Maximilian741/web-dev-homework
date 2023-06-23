@@ -68,7 +68,7 @@ a:hover {
 
 a.active {
     color: greenyellow;
-    transform: translateY(2px);
+    transform: translateY(8px);
 }
 
 /* Additional Styles */
@@ -76,12 +76,14 @@ a.active {
     margin-top: 150px; /* Adjust the margin-top value as needed */
     padding: 20px;
     background-color: #fff;
+    border-color: #333;
+    border: #333;
 }
 
 #artwork-section {
     margin-top: 20px;
     padding: 20px;
-    background-color: #334e41;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,4 +96,43 @@ a.active {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+#contact-section {
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #333;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#contact-section h2 {
+    margin-bottom: 10px;
+}
+
+#contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-section label {
+    margin-bottom: 5px;
+}
+
+#contact-section input,
+#contact-section textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#contact-section input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#contact-section input[type="submit"]:hover {
+    background-color: greenyellow;
 }
