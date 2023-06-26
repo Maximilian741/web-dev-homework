@@ -5,6 +5,8 @@
 
 body {
     background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 #name {
@@ -13,6 +15,7 @@ body {
     color: #fff;
     font-size: 39px;
     text-align: left;
+    transition: background-color 1.5s ease;
 }
 
 /* Style the slideshow */
@@ -33,7 +36,7 @@ nav {
     background-color: #444;
     width: 100%;
     z-index: 1; /* Ensure navigation is above other elements */
-    transition: background-color 0.5s ease;
+    transition: background-color 1.5s ease;
 }
 
 #main-nav {
@@ -42,7 +45,7 @@ nav {
     bottom: 0;
     left: 0;
     z-index: 1; /* Ensure navigation is above other elements */
-    transition: background-color 0.5s ease;
+    transition: background-color 1.5s ease;
 }
 
 ul {
@@ -73,7 +76,7 @@ a.active {
 
 /* Additional Styles */
 #about-section {
-    margin-top: 150px; /* Adjust the margin-top value as needed */
+    margin-top: 15px; /* Adjust the margin-top value as needed */
     padding: 20px;
     background-color: #fff;
     border-color: #333;
@@ -134,6 +137,7 @@ a.active {
     align-items: left;
     background-color: #333;
     position: relative;
+    transition: background-color 1.5s ease;
 }
 
 .logo {
@@ -164,3 +168,25 @@ a.active {
     width: 100%;
     height: 100%;
 }
+
+.logo-container a:hover .logo {
+    opacity: 0.5;
+}
+
+.map-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #333;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/*Stylr ther footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
