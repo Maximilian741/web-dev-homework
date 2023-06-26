@@ -23,13 +23,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
+    transition: opacity 0.3s ease;}
 
 #slideshow img {
     max-width: 100%;
     height: auto;
     margin: 0 10px;
-}
+    transition: opacity 0.3s ease;}
 
 /* Style the navigation */
 nav {
@@ -60,6 +60,7 @@ li {
 }
 
 a {
+    
     text-decoration: none;
     color: #fff;
     transition: color 0.3s ease;
@@ -189,4 +190,10 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+#slideshow-img:hover {
+    /*Apply a brightness filter on hover*/
+    filter: brightness(150%)  /* Apply slight shading on hover */
+}
+
 
